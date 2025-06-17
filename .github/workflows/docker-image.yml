@@ -40,7 +40,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            tnul/zoraxy:latest
-            tnul/zoraxy:${{ github.event.release.tag_name }}
+            zoraxydocker/zoraxy:latest
+            zoraxydocker/zoraxy:${{ github.event.release.tag_name }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
