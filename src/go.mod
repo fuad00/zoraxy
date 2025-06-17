@@ -8,7 +8,7 @@ require (
 	github.com/armon/go-radix v1.0.0
 	github.com/boltdb/bolt v1.3.1
 	github.com/docker/docker v27.0.0+incompatible
-	github.com/go-acme/lego/v4 v4.21.0
+	github.com/go-acme/lego/v4 v4.23.1
 	github.com/go-ping/ping v1.1.0
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/sessions v1.2.2
