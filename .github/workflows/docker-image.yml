@@ -3,6 +3,7 @@ name: Build and push Docker image
 on:
   release:
     types: [ published ]
+  workflow_dispatch:
 
 jobs:
   setup-build-push:
