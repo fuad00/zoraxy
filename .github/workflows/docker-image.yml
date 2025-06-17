@@ -27,7 +27,7 @@ jobs:
 
       - name: Pull last image for layer reuse
         run: |
-          docker pull docker.io/zoraxydocker/zoraxy:latest
+          docker pull docker.io/tnul/zoraxy:latest
       
       - name: Setup building file structure
         run: |
